@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Config from 'react-native-config';
 
-const API_KEY = Config.API_KEY || "56a49e9e";   
+const API_KEY = Config.API_KEY || "";   
 const BASE_URL = `http://www.omdbapi.com/?apikey=${API_KEY}`;
 
 async function searchMovieByTitle(title) {
